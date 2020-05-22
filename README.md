@@ -20,14 +20,12 @@ Pythia8 is contained in a downloadable .tgz file; however, if you are using a re
 The way to do this is to use the ```wget``` command. For example:
 
  ```wget http://home.thep.lu.se/Pythia```
-
-You will then need to unpack the Pythia8 using the ```tar``` command:
+ 
+ To make sure this worked correctly, list the objects inside the directory you gave the above command to with ```ls```. You should see ```pythia8244.tgz``` inside this directory. You will then need to unpack the Pythia8 using the ```tar``` command:
 
 ```tar xvfz pythia8244.tgz```
 
-This will unpack the Pythia8 file and create a directly of the current Pythia version. To make sure this worked correctly, list the objects inside the directory you gave the above command to with ```ls```. You should see ```pythia8244.tgz``` inside this directory. 
-
-Next create your own directory that will contain the Pythia8 files using ```mkdir *directory_name*```. Move inside this directory by using the ```cd``` command.
+This will unpack the Pythia8 file and create a directory of the current Pythia version inside the workspace. Again use ```ls``` to make sure the directory is there. Using the command ```cd``` to move inside the Pythia directory.  
 
 The next step is to setup the configuration. Before you setup the configuration you should create your own directory path of where your workspace. Once you have that path created, for example ```/users/jdburleson/scratch/JetStudy/``` then setup configuation in this way:
 
